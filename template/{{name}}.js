@@ -1,13 +1,11 @@
-import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import React from 'react'
 import './{{name}}.less'
 
-class {{name}} extends Component {
-  render () {
-    return (
+const {{name}} = (props) => {
+  return (
       
-    )
-  }
+  )
 }
 
 {{name}}.propTypes = {
