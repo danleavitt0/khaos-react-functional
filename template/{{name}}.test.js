@@ -1,14 +1,8 @@
-/**
- * Imports
- */
-
-import test from 'tape'
+import React from 'react'
+import ReactDOM from 'react-dom'
 import {{name}} from '.'
 
-/**
- * <{{capitalcase name}}/> tests
- */
-
-test('<{{name}}/> should work', t => {
-
+it('renders without crashing', () => {
+  const div = document.createElement('div')
+  ReactDOM.render(<{{name}} />, div)
 })
