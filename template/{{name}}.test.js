@@ -1,8 +1,9 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { shallow } from 'enzyme'
 import {{name}} from '.'
 
+const defaultProps = {}
+
 it('renders without crashing', () => {
-  const div = document.createElement('div')
-  ReactDOM.render(<{{name}} />, div)
+  shallow(<{{name}} {...defaultProps} />)
 })
